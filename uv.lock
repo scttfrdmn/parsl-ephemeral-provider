@@ -376,14 +376,14 @@ wheels = [
 
 [[package]]
 name = "click"
-version = "8.1.8"
+version = "8.3.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b9/2e/0090cbf739cee7d23781ad4b89a9894a41538e4fcf4c31dcdd705b78eb8b/click-8.1.8.tar.gz", hash = "sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a", size = 226593, upload-time = "2024-12-21T18:38:44.339Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/bb/63/f9e1ea081ce35720d8b92acde70daaedace594dc93b693c869e0d5910718/click-8.3.3.tar.gz", hash = "sha256:398329ad4837b2ff7cbe1dd166a4c0f8900c3ca3a218de04466f38f6497f18a2", size = 328061, upload-time = "2026-04-22T15:11:27.506Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7e/d4/7ebdbd03970677812aac39c869717059dbb71a4cfc033ca6e5221787892c/click-8.1.8-py3-none-any.whl", hash = "sha256:63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2", size = 98188, upload-time = "2024-12-21T18:38:41.666Z" },
+    { url = "https://files.pythonhosted.org/packages/ae/44/c1221527f6a71a01ec6fbad7fa78f1d50dfa02217385cf0fa3eec7087d59/click-8.3.3-py3-none-any.whl", hash = "sha256:a2bf429bb3033c89fa4936ffb35d5cb471e3719e1f3c8a7c3fff0b8314305613", size = 110502, upload-time = "2026-04-22T15:11:25.044Z" },
 ]
 
 [[package]]
@@ -674,37 +674,35 @@ wheels = [
 
 [[package]]
 name = "globus-compute-endpoint"
-version = "4.15.0"
+version = "4.18.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cachetools" },
     { name = "click" },
     { name = "click-option-group" },
+    { name = "cryptography" },
     { name = "globus-compute-sdk" },
     { name = "globus-identity-mapping" },
     { name = "globus-sdk" },
     { name = "jinja2" },
     { name = "jsonschema" },
     { name = "parsl" },
-    { name = "pika" },
     { name = "psutil" },
     { name = "pyprctl" },
     { name = "python-daemon" },
     { name = "pyyaml" },
     { name = "pyzmq" },
-    { name = "requests" },
     { name = "setproctitle" },
-    { name = "texttable" },
     { name = "types-cachetools" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/19/36/e7b2170eaeee7ca1a13aeb898292b3fc6ccd3bc968b9e9e4c43f9f95b1d5/globus_compute_endpoint-4.15.0.tar.gz", hash = "sha256:d1b0d74cf04bfa402dab4d90211385fb0db44a045390bb9b0129208d44ac1b3d", size = 116717, upload-time = "2026-07-15T20:24:50.605Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e5/e5/ffd6ef86d24c12daab5656ccbf8ab58f000523c11fffc0a31b1f0dff0ae6/globus_compute_endpoint-4.18.0.tar.gz", hash = "sha256:c6731783b7b82950c6b6f4f3375475fd0cc12b6543dc7cb9d2c78baeb8b1c1a9", size = 123110, upload-time = "2026-10-07T14:59:22.492Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/7d/70/be6125bfa386f54b9b9a22d274d9652942ce2b909bc44d40f3abd1c2dfbf/globus_compute_endpoint-4.15.0-py3-none-any.whl", hash = "sha256:eb1c9de4a78f7e2477274082a528b021394f207fc8df7e0cde210f034ce2275e", size = 142050, upload-time = "2026-07-15T20:24:49.253Z" },
+    { url = "https://files.pythonhosted.org/packages/62/35/115f257a5e89406d1228f8582bf8c0d5657ed8a57295db7cc66f01890619/globus_compute_endpoint-4.18.0-py3-none-any.whl", hash = "sha256:9a8b58ba09803f222631c2413619ca523ec518ebea036dba7cfce1f133dbee10", size = 148535, upload-time = "2026-10-07T14:59:21.485Z" },
 ]
 
 [[package]]
 name = "globus-compute-sdk"
-version = "4.15.0"
+version = "4.18.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama" },
@@ -719,9 +717,9 @@ dependencies = [
     { name = "tblib" },
     { name = "texttable" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/f7/e2d1fdc02119be6a560cb610d86c34618e887b61c92c3e7c3940246acabf/globus_compute_sdk-4.15.0.tar.gz", hash = "sha256:6e4937756fd0769948296ba909029e3df81f802e6d59f216e7f90305f6624f34", size = 65713, upload-time = "2026-07-15T20:24:43.117Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a4/02/f6863ccfe729b9571da891f277be076894ad896a952a07fa2d71a03de269/globus_compute_sdk-4.18.0.tar.gz", hash = "sha256:a2d058f3d1a2c94a58ba9f495918e1167700c159f71851be64a64f845c4ea8cf", size = 65662, upload-time = "2026-10-07T14:59:18.641Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a5/ba/15e85dbc34e6aab5794165365ece4cc35621ea1ea91c11bda0bfe767e15a/globus_compute_sdk-4.15.0-py3-none-any.whl", hash = "sha256:ccde95af6711c62106353c4078429025b3f4f3d79e7f809f59876289ec9715bf", size = 74850, upload-time = "2026-07-15T20:24:41.67Z" },
+    { url = "https://files.pythonhosted.org/packages/16/56/34d0e4e1512f906c192d294677b8eb63179a9e640f11ab5da7b7a235d850/globus_compute_sdk-4.18.0-py3-none-any.whl", hash = "sha256:fd097360d63be332f23c9773a96472175fb57c64501ea73842a1ded0af3f2c36", size = 74725, upload-time = "2026-10-07T14:59:17.26Z" },
 ]
 
 [[package]]
@@ -1452,7 +1450,7 @@ wheels = [
 
 [[package]]
 name = "parsl"
-version = "2026.4.20"
+version = "2026.10.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "dill" },
@@ -1466,9 +1464,9 @@ dependencies = [
     { name = "typeguard" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/98/af/7fa01798b133ed4fa56d68bfe42ab16782ee2af04b13f06c133c531ce37e/parsl-2026.4.20.tar.gz", hash = "sha256:ad118454b69d04ed3453d0553d6d4e02f7411d765843d5bc74c49cf857712bb5", size = 378356, upload-time = "2026-04-20T22:57:56.779Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/03/98/dbf36c118283ab86af76fc21df3833a9e9c562ffc6a6b8236b2bdd722367/parsl-2026.10.5.tar.gz", hash = "sha256:c428c0fa6611905f159c4e344500c489724cf1e1dbcf81e29b503b23507e44bd", size = 386606, upload-time = "2026-10-05T22:45:12.271Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d1/e6/cda789b1039443ed07dbb25af72caacbf9c0f5aed5d8e0cdb205e8723bc9/parsl-2026.4.20-py3-none-any.whl", hash = "sha256:e6de61f96ab5fc1e8acb391f992d64d6ebc57486defe178261a6fa22ded52066", size = 561137, upload-time = "2026-04-20T22:57:55.058Z" },
+    { url = "https://files.pythonhosted.org/packages/78/e2/90d8a079483dd16e44120ee6d268c665367ccdf4af0f6614a0d93f09dd83/parsl-2026.10.5-py3-none-any.whl", hash = "sha256:7b1e5d8296113b66d8550d4e4aa9f54a2ea1ed2362b1394f6f20324567cf10fc", size = 574106, upload-time = "2026-10-05T22:45:10.411Z" },
 ]
 
 [[package]]
@@ -2836,11 +2834,11 @@ wheels = [
 
 [[package]]
 name = "tblib"
-version = "1.7.0"
+version = "3.2.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/d3/41/901ef2e81d7b1e834b9870d416cb09479e175a2be1c4aa1a9dcd0a555293/tblib-1.7.0.tar.gz", hash = "sha256:059bd77306ea7b419d4f76016aef6d7027cc8a0785579b5aad198803435f882c", size = 33074, upload-time = "2020-07-23T23:17:44.703Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/8a/14c15ae154895cc131174f858c707790d416c444fc69f93918adfd8c4c0b/tblib-3.2.2.tar.gz", hash = "sha256:e9a652692d91bf4f743d4a15bc174c0b76afc750fe8c7b6d195cc1c1d6d2ccec", size = 35046, upload-time = "2025-11-12T12:21:16.572Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f8/cd/2fad4add11c8837e72f50a30e2bda30e67a10d70462f826b291443a55c7d/tblib-1.7.0-py2.py3-none-any.whl", hash = "sha256:289fa7359e580950e7d9743eab36b0691f0310fce64dee7d9c31065b8f723e23", size = 12806, upload-time = "2020-07-23T23:17:43.191Z" },
+    { url = "https://files.pythonhosted.org/packages/02/be/5d2d47b1fb58943194fb59dcf222f7c4e35122ec0ffe8c36e18b5d728f0b/tblib-3.2.2-py3-none-any.whl", hash = "sha256:26bdccf339bcce6a88b2b5432c988b266ebbe63a4e593f6b578b1d2e723d2b76", size = 12893, upload-time = "2025-11-12T12:21:14.407Z" },
 ]
 
 [[package]]
